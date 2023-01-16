@@ -10,8 +10,8 @@ export function Edital(){
         <br/>
         <Styledp>No link abaixo é possível acessar o edital original</Styledp>
         <br/>
-        <a href='https://documento.vunesp.com.br/documento/stream/MjY5MzgzNg%3d%3d'>
-          <Styledbutton><a href='https://documento.vunesp.com.br/documento/stream/MjY5MzgzNg%3d%3d'>Clique aqui</a></Styledbutton>
+        <a href='https://documento.vunesp.com.br/documento/stream/MjY5MzgzNg%3d%3d' target="_blank">
+          <Styledbutton><a href='https://documento.vunesp.com.br/documento/stream/MjY5MzgzNg%3d%3d' target="_blank">Clique aqui</a></Styledbutton>
         </a>
         
       </EditalContainer>
