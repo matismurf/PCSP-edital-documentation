@@ -7,6 +7,7 @@ export const EditalContainer = styled.main`
   padding: 2rem 1.5rem;
   background: ${(props)=>props.theme["gray-900"]};
   border-radius: 8px;
+  margin-top:8rem;
 `;
 
 export const Styledh1 = styled.h1`

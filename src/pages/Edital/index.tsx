@@ -1,3 +1,4 @@
+import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { EditalContainer, Styledbutton, Styledh1, Styledp } from "./styles";
 
@@ -15,6 +16,8 @@ export function Edital(){
         </a>
         
       </EditalContainer>
+
+      <Footer/>
     </div>
   )
 }

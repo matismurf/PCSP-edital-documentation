@@ -1,3 +1,4 @@
+import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { HomeContainer, Styledh1, Styledp } from "./styles";
 
@@ -19,6 +20,8 @@ export function Home(){
                     Estado de São Paulo.
                 </Styledp>
             </HomeContainer>
+            
+            <Footer/>
         </div>
         
     )

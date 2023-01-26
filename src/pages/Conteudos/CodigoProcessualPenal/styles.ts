@@ -7,6 +7,7 @@ export const Container = styled.main`
   padding: 2rem 1.5rem;
   background: ${props=>props.theme["gray-900"]};
   border-radius:8px;
+  margin-top:8rem;
 `;
 
 export const Styledh1 = styled.h1`
@@ -44,4 +45,26 @@ export const Centralyze = styled.div`
   align-items:center;
   width: 100%;
   padding-left: 10%;
+`;
+
+export const StyledSubtheme = styled.h1`
+  font-size:1.6rem;
+  margin-top:2rem;
+  margin-bottom:1rem;
+  color:${props=>props.theme['gold-1']};
+`;
+
+export const Styledlink = styled.a`
+  font-size:1.3rem;
+  line-height:2rem;
+  text-decoration:none;
+  color:${props=>props.theme['green-300']};
+`;
+
+export const Styledobs = styled.p`
+  font-size:1rem;
+  font-style:italic;
+  margin:2rem;
+  padding:0.5rem;
+  background: ${props=>props.theme['gray-800']};
 `;

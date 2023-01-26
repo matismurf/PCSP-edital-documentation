@@ -6,6 +6,10 @@ export const HeaderContainer = styled.header`
   align-tems: center;
   justify-content: center;
   height: 5rem;
+  width: 100%;
+  position:fixed;
+  top: 0;
+  border-bottom: 1px solid white;
 `
 
 export const HeaderContent = styled.div`

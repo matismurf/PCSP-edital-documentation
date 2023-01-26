@@ -7,6 +7,7 @@ export const ConteudosContainer = styled.main`
   padding: 2rem 1.5rem;
   background: ${props=>props.theme["gray-900"]};
   border-radius:8px;
+  margin-top:8rem;
 `;
 
 export const Styledh1 = styled.h1`
@@ -37,6 +38,11 @@ export const Styledbutton = styled.button`
   &:hover{
     background: ${props=>props.theme.white};
   }
+
+  &:disabled{
+    opacity:0.5;
+    cursor: not-allowed;
+  }
 `;
 
 export const Centralyze = styled.div`
@@ -44,4 +50,12 @@ export const Centralyze = styled.div`
   align-items:center;
   width: 100%;
   padding-left: 10%;
+`;
+
+export const Styledobs = styled.p`
+  font-size:1rem;
+  font-style:italic;
+  margin:2rem;
+  padding:0.5rem;
+  background: ${props=>props.theme['gray-800']};
 `;
